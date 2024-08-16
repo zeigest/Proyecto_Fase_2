@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de tarea</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="./script.js"></script>
+     <!-- Código del formulario para registro de nuevas tareas -->
+</head>
+<body class="fondo-registro-tarea">
+    <header class="usuario-activo" id="usuario-activo">
+        ¡Buenos días Usuario!
+    </header>
+    <div class="registro-tarea">
+    <form id="project-form">
+        <fieldset>
+            <legend class="title">Registro de Tarea</legend>
+            <label class="title-2 is-required">Código de la tarea:</label>
+            <input class="input-field" type="text" id="id-tarea" maxlength="5" placeholder="Escribe el ID (Sólo admite 5 carácteres)" required>
+
+            <label class="title-2 is-required">Título de la tarea:</label>
+            <input class="input-field" type="text" id="titulo-tarea" maxlength="45" placeholder="Escribe el título de la tarea" required>
+
+            <label class="title-2 is-required">Descripción de la tarea:</label>
+            <input class="input-field" type="text" id="descripcion-tarea" maxlength="140" placeholder="Escribe la descripción de la tarea" required>
+
+            <label class="title-2 is-required">Fecha de inicio de la tarea:</label>
+            <input class="input-field" type="date" name="fecha-inicio" id="fecha-inicio"  required>
+
+            <label class="title-2 is-required">Nombre del cliente:</label>
+            <input class="input-field" type="text" id="cliente-tarea" maxlength="45" placeholder="Escribe el nombre completo del cliente" required>
+
+            <label class="title-2 is-required">ID del proyecto:</label>
+            <input class="input-field" type="text" id="id-proyecto-tarea" maxlength="5" placeholder="Escribe el ID (Sólo admite 5 carácteres)" required>
+
+            <label class="title-2 is-required">Comentarios:</label>
+            <input class="input-field" type="text" id="comentarios-tarea" maxlength="240" placeholder="Escribe tus comentarios, máximo 240 carácteres" required>
+
+            <label class="title-2 is-required">Estatus:</label>
+            <select class="input-field" required>
+                <option value="En progreso" id="estatus-tarea-1">En progreso</option>
+                <option value="Rechazado" id="estatus-tarea-2">Rechazado</option>
+                <option value="Cancelado" id="estatus-tarea-3">Cancelado</option>
+                <option value="Cerrado" id="estatus-tarea-4">Cerrado</option>
+                <option value="En pruebas de calidad" id="estatus-tarea-5">En pruebas de calidad</option>
+                <option value="En validación por el usuario" id="estatus-tarea-6">En validación por el usuario</option>
+                <option value="En proceso de liberación" id="estatus-tarea-7">En proceso de liberación</option>
+            </select>
+            
+            
+            <input class="register-button" type="submit" value="Agregar tarea">
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <script src="./script-actualizar.js"></script>
+    <script src="./script-filtro.js"></script>
+</head>
+
+<body class="inicio">
+    <header class="usuario-activo" id="usuario-activo">
+        ¡Buenos días Usuario!
+    </header>
+
+    <div class="contenedor-main">
+        <h1 class="titulo-main">
+            Registro de tareas
+        </h1>
+        <div class="contenedor-filtro">
+            <label for="filtro-estatus">Filtrar por estatus:</label>
+            <select id="filtro-estatus" class="input-field">
+                <option value="Todos">Todos</option>
+                <option value="Por hacer">Por hacer</option>
+                <option value="En progreso">En progreso</option>
+                <option value="Rechazado">Rechazado</option>
+                <option value="Cancelado">Cancelado</option>
+                <option value="Cerrado">Cerrado</option>
+                <option value="En pruebas de calidad">En pruebas de calidad</option>
+                <option value="En validación por el usuario">En validación por el usuario</option>
+            </select>
+        </div>    
+        <div class="contenedor-button">
+            <input class="create-button" type="button" value="Crear nueva tarea">
+        </div>
+        <div id="tooltip" style="position: absolute; display: none; background-color: #2e286c; color: white; padding: 5px; border-radius: 5px; font-size: 12px;">
+            Da doble clic sobre una tarea para actualizar su estatus y/o agregar un comentario
+        </div>        
+        
+        <div class="contenedor-tareas">
+            <table class="tabla-tareas">
+                <thead>
+                    <tr class="titulo-tabla">
+                        <th>Código de tarea</th>
+                        <th>Título de tarea</th>
+                        <th>Descripción de tarea</th>
+                        <th>Fecha de inicio</th>
+                        <th>Nombre del cliente</th>
+                        <th>Id del proyecto</th>
+                        <th>Comentarios</th>
+                        <th>Estatus</th>
+                    </tr>
+                </thead>
+                <tbody class="cuerpo-tabla">
+                    <!-- Las tareas se cargan aquí -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="detalle-tarea" id="detalle-tarea" style="display: none;">
+            <form id="update-form">
+                <fieldset>
+                    <legend class="title">Actualización de tarea</legend>
+                    <label class="title-3">Código de la tarea:</label>
+                    <input class="input-field" type="text" id="id-tarea" readonly>
+        
+                    <label class="title-3">Título de la tarea:</label>
+                    <input class="input-field" type="text" id="titulo-tarea" disabled>
+        
+                    <label class="title-3">Descripción de la tarea:</label>
+                    <input class="input-field" type="text" id="descripcion-tarea" disabled>
+        
+                    <label class="title-3">Fecha de inicio de la tarea:</label>
+                    <input class="input-field" type="date" id="fecha-inicio" disabled>
+        
+                    <label class="title-3">Nombre del cliente:</label>
+                    <input class="input-field" type="text" id="cliente-tarea" disabled>
+        
+                    <label class="title-3">ID del proyecto:</label>
+                    <input class="input-field" type="text" id="id-proyecto-tarea" disabled>
+        
+                    <label class="title-3">Comentarios:</label>
+                    <textarea class="input-field" id="comentarios-tarea" readonly></textarea>
+        
+                    <label class="title-2">Nuevo comentario:</label>
+                    <textarea class="input-field" id="nuevo-comentario"></textarea>
+        
+                    <label class="title-2 is-required">Estatus:</label>
+                    <select class="input-field" id="estatus-tarea" required>
+                        <option value="En progreso">En progreso</option>
+                        <option value="Rechazado">Rechazado</option>
+                        <option value="Cancelado">Cancelado</option>
+                        <option value="Cerrado">Cerrado</option>
+                        <option value="En pruebas de calidad">En pruebas de calidad</option>
+                        <option value="En validación por el usuario">En validación por el usuario</option>
+                        <option value="En proceso de liberación">En proceso de liberación</option>
+                    </select>
+        
+                    <input class="update-button" type="submit" value="Actualizar tarea">
+                </fieldset>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>

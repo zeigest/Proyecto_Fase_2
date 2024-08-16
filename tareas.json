@@ -1,0 +1,142 @@
+[
+  {
+    "codigo": "1",
+    "titulo": "Desarrollo de página web para registro de tareas",
+    "descripcion": "Desarrollo completo de una página web para la gestión y registro de tareas.",
+    "fecha_inicio": "2024-08-01",
+    "nombre_cliente": "Priscila Nieto Magaña",
+    "id_proyecto": "P001",
+    "comentarios": "En diseño de interfaz (Maqueta)\n[01/08/2024, 5:30:00 p.m.] Diseño de HTML\n[02/08/2024, 6:45:00 p.m.] Estilo de CSS\n[03/08/2024, 7:15:00 p.m.] Código JS\n[03/08/2024, 9:00:00 p.m.] Pruebas de funcionalidad\n[03/08/2024, 11:30:00 p.m.] Elaboración de reporte",
+    "estatus": "Cerrado"
+  },
+  {
+    "codigo": "2",
+    "titulo": "Actualización del sitio web de la empresa",
+    "descripcion": "Implementar nuevas funcionalidades y optimizar el rendimiento del sitio web.",
+    "fecha_inicio": "2024-08-05",
+    "nombre_cliente": "Juan Pérez",
+    "id_proyecto": "P002",
+    "comentarios": "Revisión de los requisitos\n[05/08/2024, 4:15:00 p.m.] Desarrollo de la funcionalidad de búsqueda\n[06/08/2024, 8:00:00 p.m.] Optimización del rendimiento de la página principal\n[16/8/2024, 1:44:26 a.m.] Pruebas finales",
+    "estatus": "En pruebas de calidad"
+  },
+  {
+    "codigo": "3",
+    "titulo": "Rediseño de la página de inicio del blog",
+    "descripcion": "Crear un nuevo diseño visual y reorganizar la estructura de la página de inicio.",
+    "fecha_inicio": "2024-08-07",
+    "nombre_cliente": "María López",
+    "id_proyecto": "P003",
+    "comentarios": "Revisión del diseño actual\n[07/08/2024, 10:30:00 a.m.] Propuesta de nuevo diseño visual\n[08/08/2024, 3:45:00 p.m.] Presentación del diseño al cliente\n[08/08/2024, 5:00:00 p.m.] Rediseño rechazado por el cliente",
+    "estatus": "Rechazado"
+  },
+  {
+    "codigo": "4",
+    "titulo": "Desarrollo de plataforma de comercio electrónico",
+    "descripcion": "Crear una plataforma de comercio electrónico desde cero.",
+    "fecha_inicio": "2024-08-08",
+    "nombre_cliente": "Comercio XYZ",
+    "id_proyecto": "P004",
+    "comentarios": "Análisis de requerimientos\n[08/08/2024, 6:00:00 p.m.] Desarrollo del backend\n[09/08/2024, 9:30:00 p.m.] Implementación del frontend",
+    "estatus": "En progreso"
+  },
+  {
+    "codigo": "5",
+    "titulo": "Optimización de sitio web",
+    "descripcion": "Mejorar la velocidad y SEO del sitio web.",
+    "fecha_inicio": "2024-08-09",
+    "nombre_cliente": "SEO Agency",
+    "id_proyecto": "P005",
+    "comentarios": "Análisis de velocidad de carga\n[09/08/2024, 4:00:00 p.m.] Implementación de técnicas SEO",
+    "estatus": "En progreso"
+  },
+  {
+    "codigo": "6",
+    "titulo": "Integración de pagos en línea",
+    "descripcion": "Agregar funcionalidades de pago en línea a un sitio existente.",
+    "fecha_inicio": "2024-08-10",
+    "nombre_cliente": "Tienda Virtual ABC",
+    "id_proyecto": "P006",
+    "comentarios": "Análisis de opciones de pasarela de pago\n[10/08/2024, 7:00:00 p.m.] Implementación de pasarela de pago\n[11/08/2024, 8:00:00 p.m.] Pruebas de funcionalidad de pago",
+    "estatus": "En pruebas de calidad"
+  },
+  {
+    "codigo": "7",
+    "titulo": "Migración de sitio web a nuevo servidor",
+    "descripcion": "Mover un sitio web existente a un servidor más rápido y moderno.",
+    "fecha_inicio": "2024-08-11",
+    "nombre_cliente": "Web Hosting Co.",
+    "id_proyecto": "P007",
+    "comentarios": "Preparación del servidor\n[11/08/2024, 9:00:00 p.m.] Migración de bases de datos\n[12/08/2024, 10:30:00 p.m.] Pruebas de estabilidad en el nuevo servidor",
+    "estatus": "En pruebas de calidad"
+  },
+  {
+    "codigo": "8",
+    "titulo": "Actualización de seguridad del sitio web",
+    "descripcion": "Implementar mejoras de seguridad para proteger el sitio web contra ataques.",
+    "fecha_inicio": "2024-08-12",
+    "nombre_cliente": "Seguridad Web",
+    "id_proyecto": "P008",
+    "comentarios": "Análisis de vulnerabilidades\n[12/08/2024, 11:00:00 p.m.] Implementación de medidas de seguridad\n[13/08/2024, 12:45:00 a.m.] Pruebas de penetración",
+    "estatus": "En pruebas de calidad"
+  },
+  {
+    "codigo": "9",
+    "titulo": "Rediseño del sitio web corporativo",
+    "descripcion": "Crear un nuevo diseño para el sitio web corporativo.",
+    "fecha_inicio": "2024-08-13",
+    "nombre_cliente": "Empresa Corp.",
+    "id_proyecto": "P009",
+    "comentarios": "Propuesta inicial de diseño\n[13/08/2024, 2:30:00 p.m.] Revisión con el cliente\n[14/08/2024, 5:00:00 p.m.] Propuesta rechazada por el cliente",
+    "estatus": "Rechazado"
+  },
+  {
+    "codigo": "10",
+    "titulo": "Implementación de chatbot en sitio web",
+    "descripcion": "Desarrollar e integrar un chatbot para mejorar la atención al cliente.",
+    "fecha_inicio": "2024-08-14",
+    "nombre_cliente": "Soporte AI",
+    "id_proyecto": "P010",
+    "comentarios": "Desarrollo del chatbot\n[14/08/2024, 8:00:00 p.m.] Pruebas iniciales del chatbot\n[15/08/2024, 10:00:00 p.m.] Chatbot en proceso de ajustes finales",
+    "estatus": "En proceso de liberación"
+  },
+  {
+    "codigo": "11",
+    "titulo": "Lanzamiento del sitio web de noticias",
+    "descripcion": "Preparar el sitio para su lanzamiento oficial.",
+    "fecha_inicio": "2024-08-15",
+    "nombre_cliente": "Noticias Hoy",
+    "id_proyecto": "P011",
+    "comentarios": "Configuración de contenido\n[15/08/2024, 6:00:00 p.m.] Pruebas finales\n[16/08/2024, 9:00:00 p.m.] Ajustes antes del lanzamiento",
+    "estatus": "En proceso de liberación"
+  },
+  {
+    "codigo": "12",
+    "titulo": "Cancelación de proyecto de redes sociales",
+    "descripcion": "Detener el desarrollo de una nueva red social debido a cambios en los requisitos del cliente.",
+    "fecha_inicio": "2024-08-16",
+    "nombre_cliente": "Red Social X",
+    "id_proyecto": "P012",
+    "comentarios": "Revisión de los cambios solicitados\n[16/08/2024, 2:00:00 p.m.] Decisión de cancelar el proyecto\n[16/08/2024, 3:30:00 p.m.] Comunicación de la cancelación al equipo",
+    "estatus": "Cancelado"
+  },
+  {
+    "codigo": "13",
+    "titulo": "Cancelación de proyecto de tienda en línea",
+    "descripcion": "Suspender el desarrollo de una tienda en línea por motivos de presupuesto.",
+    "fecha_inicio": "2024-08-17",
+    "nombre_cliente": "Tienda XYZ",
+    "id_proyecto": "P013",
+    "comentarios": "Revisión de costos del proyecto\n[17/08/2024, 4:00:00 p.m.] Decisión de suspender el proyecto\n[17/08/2024, 5:45:00 p.m.] Notificación al cliente de la suspensión",
+    "estatus": "Cancelado"
+  },
+  {
+    "codigo": "14",
+    "titulo": "Cancelación de proyecto de blog personal",
+    "descripcion": "El cliente decidió cancelar el desarrollo del blog personal.",
+    "fecha_inicio": "2024-08-18",
+    "nombre_cliente": "Blog Personal",
+    "id_proyecto": "P014",
+    "comentarios": "Revisión del progreso del proyecto\n[18/08/2024, 1:00:00 p.m.] Solicitud de cancelación del cliente\n[18/08/2024, 2:30:00 p.m.] Proyecto cancelado oficialmente",
+    "estatus": "Cancelado"
+  }
+]

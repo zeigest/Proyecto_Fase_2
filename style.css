@@ -1,0 +1,218 @@
+/* Estilos usados para el proyecto */
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    background-image: url("/image/ciudad.webp");
+    background-size: cover;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.fondo-registro-tarea{
+   background-color: #00534c;
+}
+
+.inicio {
+    justify-content: center;
+    align-items: center;
+    background-color: #00534c;
+}
+
+.registro-tarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#login-form {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    box-shadow: 5px 10px 5px 5px rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#project-form {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    box-shadow: 5px 10px 5px 5px rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title {
+    color:#2e286c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title-2 {
+    display: block;
+    text-align: left;
+    color: #0c9a41;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.input-field {
+    border-radius: 10px;
+    width: calc(100% - 22px);
+    padding: 10px;
+}
+
+.submit-button, .register-button, .create-button, .update-button {
+    background-color: #0c9a41;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: none;
+    height: 30px;
+    width: 150px;
+    margin: 20px 0 5px 0;
+}
+
+.submit-button:hover, .register-button:hover, .create-button:hover, .update-button:hover {
+    background-color: #2e286c;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.usuario-activo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 1);
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.contenedor-tareas {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra la tabla horizontalmente */
+    align-items: center;
+}
+
+.contenedor-button {
+    margin-bottom: 20px;
+}
+
+.tabla-tareas {
+    width: 80%;
+    border-collapse: separate;
+}
+
+.tabla-tareas th {
+    border: 1px;
+    background-color: #0c9a41;
+    padding: 10px;
+    text-align: left;
+    border-radius: 2px;
+    color: white;
+}
+
+.tabla-tareas td {
+    border: 1px;
+    background-color: white;
+    padding: 5px;
+    text-align: left;
+    border-radius: 2px;
+    border: 1px solid gray;
+    white-space: pre-wrap;
+}
+
+/* Aplicar hover solo a las filas dentro del cuerpo de la tabla */
+.tabla-tareas tbody tr:hover {
+    cursor: pointer;
+    background-color: #2e286c;
+    color: white;
+}
+
+/* Sobrescribir el color de fondo de las celdas al hacer hover */
+.tabla-tareas tbody tr:hover td {
+    background-color: #2e286c;
+    color: white;
+}
+
+.titulo-tabla {
+    background-color: #f2f2f2;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color:rgba(0, 83, 76, .8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+.is-required:after {
+    content: '*';
+    margin-left: 3px;
+    color: red;
+    font-weight: bold;
+}
+
+.title-3 {
+    display: block;
+    text-align: left;
+    color: #888888;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.input-field[disabled], 
+.input-field[readonly] {
+    background-color: #f0f0f0;
+    color: #888888;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+}
+
+textarea[readonly] {
+    background-color: #f0f0f0;
+    color: #888888;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    background-color: darkgray !important;
+    color: white !important;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+}
